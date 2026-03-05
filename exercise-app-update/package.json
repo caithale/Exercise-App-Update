@@ -1,7 +1,10 @@
 {
   "name": "exercise-app-update",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://caithale.github.io/exercise-app-update",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
